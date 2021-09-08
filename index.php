@@ -39,8 +39,6 @@ if(!empty($_COOKIE['stated'])) {
             <div class="imgSection"><img src="Pictures/self-knowledge.jpg" alt="no, what???"></div>
         </div>
         <div class="clear"></div>
-        <div class="headerBreak"></div>
         <?php include "footer.php"; ?>
-        <div class="headerBreak"></div>
     </body>
 </html>
