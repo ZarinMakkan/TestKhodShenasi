@@ -1,0 +1,132 @@
+@font-face {
+    font-family: Tanha;
+    src: url('Fonts/Tanha/Tanha.eot');
+    src: url('Fonts/Tanha/Tanha.eot?#iefix') format('embedded-opentype'),
+        url('Fonts/Tanha/Tanha.woff') format('woff'),
+        url('Fonts/Tanha/Tanha.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+html, body, div, h1, img, p{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Tanha';
+    background-color: #ebf2f2;
+    /*display: none; in miyad kolan remove mikone
+    visibility: hidden; in faghat jasho khali mikone va hide mikone!*/
+}
+.bodyResultPage{
+    background-image: url("Pictures/blueSky.jpg");
+}
+.containarHeader{
+    margin: 20px;
+}
+#title{
+    float: right;
+    background-color: #f0e030;
+    width: 568px;
+    padding: 5px 15px 5px 15px;
+    margin-right: 100px;
+    border-radius: 5px;
+}
+#armSite{
+    height: 48px;
+    width: 180px;
+    margin-left: 100px;
+}
+.headerBreak{
+    background-color: #67d6dd;
+    height: 10px;
+}
+#subImg{
+    width: 680px;
+    height: 250px;
+    margin-top: 8px;
+}
+#introduction{
+    width: 600px;
+    float: right;
+    direction: rtl;
+}
+#introduction p{
+    margin-right: 10px;
+    font-size: 19px;
+    text-align: right;
+    color: navy;
+    direction: rtl;
+}
+.containarMiddle{
+    background-color: white;
+}
+.containarBottom{
+    margin: auto;
+}
+.formSection{
+    width: 600px;
+    float: right;
+    margin: 25px 60px 0px 10px;
+}
+.imgSection{
+    float: left;
+    margin: 0px 16px 16px 16px;    
+}
+.imgSection img{
+    width: 580px;
+    height: 806px;
+}
+.number{
+    float: right;
+}
+.question{
+    float: right;
+}
+.choices{
+    font-family: "Tanha";
+    direction: rtl;
+    float: right;
+    width: 250px;
+    background-color: #f0e030;
+    margin: 5px 18px 0px;
+}
+.choice{
+    font-family: "Tanha";
+    color: tan;
+}
+#selection{
+    font-family: "Tanha";
+    float: right;
+    margin: 5px 95px 0px;
+}
+.footer{
+    height: 100px;
+    background-image: url("Pictures/blueSky.jpg");
+    background-size: 100%;
+}
+.footer p{
+    width: 330px;
+    height: 70px;
+    float: right;
+    margin-right: 475px;
+    margin-top: 35px;
+}
+.footer p a{
+    margin-right: 10mm;
+}
+.footer img{
+    height: 100px;
+    margin-left: 30px;
+}
+#result{
+    margin: 120px 178px 120px 178px;
+}
+#result p {
+    text-align: center;
+}
+#result h2 {
+    text-align: center;
+}
+.clear{
+    clear: both;
+}
